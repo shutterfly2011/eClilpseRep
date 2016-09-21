@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="MyJsProject" name="MyJsProject" path="C:/Users/U756632/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/MyJsProject" type="static"/>
+</server>

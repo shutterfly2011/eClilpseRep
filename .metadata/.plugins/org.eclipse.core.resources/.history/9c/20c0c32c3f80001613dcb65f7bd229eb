@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="Myjs.js"></script>
+<script type="text/javascript" src="jquery-1.4.1.js"></script>
+</head>
+<body>
+<div id="div1"></div>
+<div id="div2"></div>
+<script type="text/javascript">
+	var a = 3;
+	/*
+	$.get("confidence-band.json", function(data){
+		var items = [];
+		$.each(data, function(key, val){
+			items.push("<li id='" + key + "'>" + val + "</li>");
+		alert(item[0]);
+		});
+		
+	});
+	*/
+	$.ajax("dummData.txt",{success: function(result){
+		$("#div1").html(result);
+	} , error: function() {alert('error!');}
+	}			
+	);
+	alert('happend') ;
+	$("#div2").html("this is div2 world!");
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="Myjs.js"></script>
+<script type="text/javascript" src="jquery-1.4.1.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	var a = 3;
+	$.getJSON("confidence-band.json", function(data){
+		var items = [];
+		$.each(data, function(key, val){
+			items.push("<li id='" + key + "'>" + val + "</li>");
+		alert(item[0]);
+		});
+		
+	});
+	alert('happend') ;
+</script>
+</body>
+</html>
